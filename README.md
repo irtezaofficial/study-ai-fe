@@ -1,30 +1,103 @@
-# React + TypeScript + Vite
+# Study-AI-FE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end application built with **React**, **TypeScript**, and **Vite**.  
+This repository serves as the front-end for the **Study AI** platform — an AI-powered learning assistant that helps students study smarter with quizzes, flashcards, summaries, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📑 Table of Contents
 
-## Expanding the ESLint configuration
+- [About](#about)  
+- [Features](#features)  
+- [Demo](#demo)  
+- [Technologies Used](#technologies-used)  
+- [Setup & Installation](#setup--installation)  
+  - [Prerequisites](#prerequisites)  
+  - [Clone & Install](#clone--install)  
+  - [Run Locally](#run-locally)  
+- [Available Scripts](#available-scripts)  
+- [Project Structure](#project-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Acknowledgements](#acknowledgements)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 📖 About
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+**Study AI** is designed to support learners by providing AI-powered study tools.  
+This repository contains the **front-end** implementation of the platform, offering a responsive and interactive UI for students to access features such as:
+
+- Intelligent content summarization  
+- Flashcard creation  
+- Auto-generated quizzes  
+- Personalized study suggestions  
+
+---
+
+## ✨ Features
+
+- ⚡ Fast development setup with **Vite**  
+- 🛡️ Strong type safety using **TypeScript**  
+- 📱 Responsive React UI  
+- ✅ Linting via **ESLint**  
+- 🎨 Code formatting with **Prettier**  
+- 🔧 Easy configuration and extensible project structure  
+
+---
+
+## 🚀 Demo
+[Study Ai](https://study-ai-fyp.netlify.app/) – The Web App
+
+---
+
+## 🛠️ Technologies Used
+
+- [React](https://reactjs.org/) – Front-end library  
+- [TypeScript](https://www.typescriptlang.org/) – Static typing  
+- [Vite](https://vitejs.dev/) – Build tool & dev server  
+- [ESLint](https://eslint.org/) – Code linting  
+- [Prettier](https://prettier.io/) – Code formatting  
+
+---
+
+## ⚙️ Setup & Installation
+
+### 🔑 Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) v14 or newer  
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### 📂 Clone & Install
+
+```bash
+git clone https://github.com/irtezaofficial/study-ai-fe.git
+cd study-ai-fe
+npm install
+npm run dev
+# or
+yarn install
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 📂 Project Structure
+
+```bash
+study-ai-fe/
+├── src/
+│   ├── assets/          # Static assets
+│   ├── components/      # Reusable React components
+│   ├── pages/           # Page-level components (routes)
+│   ├── App.tsx          # Main app component
+│   └── main.tsx         # ReactDOM entry point
+├── public/              # Public static files
+├── index.html           # Base HTML template
+├── package.json         # Dependencies & scripts
+├── tsconfig.json        # TypeScript config
+├── vite.config.ts       # Vite configuration
+├── .eslintrc.cjs        # ESLint configuration
+├── .prettierrc.cjs      # Prettier configuration
+└── README.md            # Project documentation
+```
