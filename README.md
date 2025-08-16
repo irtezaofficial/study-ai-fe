@@ -3,25 +3,6 @@
 A front-end application built with **React**, **TypeScript**, and **Vite**.  
 This repository serves as the front-end for the **Study AI** platform — an AI-powered learning assistant that helps students study smarter with quizzes, flashcards, summaries, and more.
 
----
-
-## 📑 Table of Contents
-
-- [About](#about)  
-- [Features](#features)  
-- [Demo](#demo)  
-- [Technologies Used](#technologies-used)  
-- [Setup & Installation](#setup--installation)  
-  - [Prerequisites](#prerequisites)  
-  - [Clone & Install](#clone--install)  
-  - [Run Locally](#run-locally)  
-- [Available Scripts](#available-scripts)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Acknowledgements](#acknowledgements)
-
----
 
 ## 📖 About
 
